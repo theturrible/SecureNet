@@ -1,0 +1,6 @@
+curl -L -H 'Authorization: ApiKey cmNybKpjmBMtKR34MvJ_g5UZJ_vYEJTdhqJQLW7_LfQGkPCB' \ http://api.kloudless.com/v0/accounts/1/files/fL3Rlc3QucG5n?overwrite=False
+
+
+curl -XPOST -H 'Authorization: ApiKey [cmNybKpjmBMtKR34MvJ_g5UZJ_vYEJTdhqJQLW7_LfQGkPCB]' \
+    -F metadata='{"parent_id": "fL2hp", "name": "test.png"}' \
+    -F file=@FILENAME
