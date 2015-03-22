@@ -6,8 +6,8 @@ module.exports = {
   localAuth: true,
 
   sendgrid: {
-    user: process.env.SENDGRID_USER || 'theturrible',
-    password: process.env.SENDGRID_PASSWORD || 'Hu1soska'
+    user: process.env.SENDGRID_USER || '',
+    password: process.env.SENDGRID_PASSWORD || ''
   },
   googleAuth: true,
   google: {
